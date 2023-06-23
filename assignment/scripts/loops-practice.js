@@ -14,7 +14,7 @@ for (let i = 0; i < 4; i++) {
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 0 to 5');
 
-//Forrest: we need to change the condition statement of the loop ( i < 6 ) meaning once the condition is no longer true, the loop ends
+//Forrest: we need to change the condition statement of the loop ( i < 6 ) meaning once the condition is no longer true (once i hits 6 in this case), the loop doesn't run again and ends
 
 for (let i = 0; i < 6; i++) {
   console.log(i);
@@ -24,7 +24,7 @@ for (let i = 0; i < 6; i++) {
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 3 to 5');
 
-//Forrest: we need to change the initialization statement of the loop (let i = 3) meaning we start the loop with i being equal to 3
+//Forrest: we need to change the initialization statement of the loop (let i = 3) meaning we start this loop with i being equal to 3
 
 for (let i = 3; i < 6; i++) {
   console.log(i);
@@ -34,7 +34,8 @@ for (let i = 3; i < 6; i++) {
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 
-//Forrest: we need to change the final expression (i += 2) meaning we're changing what happens to i after each loop iteration prior to the next condition check, in this case the amount it increments (going from +1 to +2)
+//Forrest: we need to change the final expression (i += 2) meaning we're changing what happens to i after each loop iteration prior to the next loop's condition check, in this case the amount it increments (going from +1 to +2).  
+//really we're changing all parts from the example loop: initialization statement (i = 2), condition statement (i < 11, but i < 12 would also work), and final expression (i += 2)
 
 for (let i = 2; i < 11; i += 2) {
   console.log(i);
