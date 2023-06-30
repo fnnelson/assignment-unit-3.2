@@ -61,7 +61,7 @@ console.log('Some stars:');
 
 //Updated 6/30 - Oops I misread the question and thought it just said a for loop!
 
-for (star of stars) {
+for (let star of stars) {
   console.log(star);
 }
 
